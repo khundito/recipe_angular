@@ -1,0 +1,22 @@
+<div class="form">
+  <div>
+    <input typeof="text" placeholder="Username" id="username" [(ngModel)] = "username">
+  </div>
+  <div>
+
+    <select name="status" id="status" [(ngModel)] = "status">
+
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+        <option value="Other">Other</option>
+
+
+    </select>
+
+  </div>
+  <div>
+    <button (click) ="AddUser()">Add Recipe</button>
+  </div>
+
+</div>
